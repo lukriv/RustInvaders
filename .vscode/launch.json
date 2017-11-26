@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceRoot}/target/debug/rust_invaders.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "sourceLanguages": ["rust"]
+        },
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program GNU",
+            "target": "./target/debug/rust_invaders.exe",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "Launch Program",
+            "target": "./target/debug/rust_invaders.exe",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}

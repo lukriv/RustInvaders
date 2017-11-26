@@ -1,0 +1,7 @@
+[package]
+name = "rust_invaders"
+version = "0.1.0"
+authors = ["Lukas Krivsky <lukriv@centrum.cz>"]
+
+[dependencies]
+sfml = { path = "extern/rust-sfml-master" }
